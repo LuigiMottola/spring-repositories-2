@@ -1,0 +1,15 @@
+server:
+  port: 5050
+spring:
+  application:
+    name: SpringRestRepositoriesHAL2
+  datasource:
+    url: jdbc:mysql://127.0.0.1:3306/devdb
+    username: root
+    password: g4tt1n0str0nz0
+    driver-class-name: com.mysql.cj.jdbc.Driver
+  jpa:
+    hibernate:
+      ddl-auto: create-drop
+    database: mysql
+    show-sql: true
